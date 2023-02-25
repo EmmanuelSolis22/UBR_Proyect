@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.cuerpo{
+  padding-top: 65px;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #666666;
+  margin: 65px;
+  font-family: 'Poppins';
+  font-style: normal;
+  padding-bottom: 100px;
+}
+p{
+  padding: 0;
+  margin: 0 0 30px;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+  padding:0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  font-family: 'Montserrat';
+  font-style: 16px !important;
+  margin-bottom: 80px;
+
+
+}
+.form-control{
+  width: 350px;
+}
+.form-label{
+  margin-top: 3px;
+}
+.login{
+  margin-top: 50px;
+  padding-top: 10px;
+}
+.btn-primary{
+  background-color:#13322B;
+  border-color: #13322B;
+  margin-left: 110px;
+}
+.btn-primary:hover{
+  background-color: #13322B;
+  border-color: #13322B;
+}
+.recuperar_C{
+  margin-left: 83px;
+}
+.my3-3{
+  margin-top: 20px;
+}
+
+
+

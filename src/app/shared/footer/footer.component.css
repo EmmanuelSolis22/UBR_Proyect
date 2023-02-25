@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+footer{
+  background-color:#A02142;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 13px;
+  color: white;
+}
+.logo07{
+  width:350px;
+  height: 230px;
+  float: left;
+}
+.imgescudo{
+ padding-top: 8px;
+ padding-left: 90px;
+}
+a{
+  color: white;
+}
