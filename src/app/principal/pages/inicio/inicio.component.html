@@ -1,1 +1,10 @@
 
+<mdb-carousel   #carousel [controls]="true" [indicators]="true"  [animation]="'slide'" [interval]="transicion_ims" [keyboard]="true" slidefade *ngIf="media.length">
+    <mdb-carousel-item *ngFor="let slide of media">
+        <img src="{{slide.imagen}}" id="imagenes-carrusel"/>
+        <div class="carousel-caption d-none d-md-block">
+            <h5>{{slide.titulo}}</h5>
+            <p>{{slide.desc}}</p>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>

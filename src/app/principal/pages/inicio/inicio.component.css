@@ -1,0 +1,11 @@
+#imagenes-carrusel{
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    transition-delay: all 300ms;
+    opacity: .5s ease-out;
+    /* object-fit: contain; */
+    /* carousel-item$carousel-transitiontransition: transform 2s ease; */
+    
+};
+    

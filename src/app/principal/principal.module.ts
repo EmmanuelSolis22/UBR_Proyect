@@ -10,6 +10,8 @@ import { HammerModule } from '@angular/platform-browser';
 import { SharedModule } from '../shared/shared.module';
 
 
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import {MdbCarouselModule} from 'mdb-angular-ui-kit/carousel';
 
 
 @NgModule({
@@ -32,7 +34,16 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     HammerModule,
-    SharedModule
-  ]
+    SharedModule,
+    // para que el carrusel funcione
+    MdbCarouselModule
+    // para que el carrusel funcione
+  ],
+  
+  // para que el carrusel funcione
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
+  // para que el carrusel funcione
 })
 export class PrincipalModule { }

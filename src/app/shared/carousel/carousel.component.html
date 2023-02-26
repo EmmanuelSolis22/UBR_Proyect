@@ -1,0 +1,10 @@
+<!-- src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).webp" -->
+<mdb-carousel [controls]="true" [indicators]="true" [animation]="'slide'" *ngIf="media.length">
+    <mdb-carousel-item *ngFor="let slide of media">
+        <img src="{{slide.imagen}}" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+            <h5>{{slide.titulo}}</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+    </mdb-carousel-item>
+</mdb-carousel>
